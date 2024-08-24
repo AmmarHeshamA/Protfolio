@@ -565,7 +565,7 @@ form input:last-child:hover {
         margin: 20px; 
         width: 100%;
         max-width: 600px; 
-        margin-right: 15px;
+        margin-left: 5px;
     }
 
     .info h1 {
@@ -622,8 +622,6 @@ form input:last-child:hover {
         margin: auto;
     }
 }
-
-
 
 @media screen and (max-width: 768px) {
     .numbers {
