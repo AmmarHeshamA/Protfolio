@@ -537,7 +537,7 @@ form input:last-child:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     body {
         overflow-x: hidden;
     }
@@ -616,7 +616,91 @@ form input:last-child:hover {
         width: 50%;
         margin: auto;
     }
+} */
+
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .mobileNav {
+        display: flex;
+    }
+
+    #home {
+        display: flex; /* Ensures that the container is using a flexbox layout */
+        flex-direction: column; 
+        align-items: center; /* Horizontally centers the content */
+        justify-content: center; /* Vertically centers the content */
+        text-align: center; 
+        padding: 20px; 
+    }
+
+    .info {
+        margin: 20px; 
+        width: 100%;
+        max-width: 600px; 
+    }
+
+    .info h1 {
+        font-size: 22px;
+        margin: 10px 0;
+    }
+
+    .info p {
+        font-size: 14px;
+        margin: 10px 20px; 
+    }
+    
+    .avatar-container {
+        width: 80vw; 
+        height: 80vw; 
+        max-width: 300px; 
+        max-height: 300px; 
+        margin-bottom: 20px;
+    }
+
+    .avatar {
+        width: 100%; 
+        height: 100%; 
+    }
+
+    .btn {
+        border: 2px solid var(--main);
+        margin: 5px;
+        padding: 5px 20px;
+        font-weight: 700;
+        font-size: 12px;
+    }
+
+    .myInfosBox {
+        margin: 20px;
+    }
+
+    .myInfosBox .personal-infos {
+        width: auto;
+    }
+
+    .myInfosBox .personal-infos p {
+        font-size: 12px;
+    }
+
+    .numbers {
+        margin-top: 20px;
+        margin-left: 30px !important;
+        justify-content: center;
+    }
+
+    .skill {
+        width: 50%;
+        margin: auto;
+    }
 }
+
 
 
 @media screen and (max-width: 768px) {
